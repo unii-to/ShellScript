@@ -8,3 +8,8 @@ BACKUPNAME="archive-$TIMESTAMP.tar"
 tar -czvf backup/$BACKUPNAME works
 
 git status
+git add .
+git status
+git commit -m "update files" -m "automatic updating"
+git status
+git push
